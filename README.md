@@ -28,11 +28,8 @@ python3.6 + mysql爬取脚本之家文章
     *或者按照下述方法执行一键安装依赖：pip install -r requirements.txt
     
     *重要事情说三遍：请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！
-    
 
-
-    *所有平台的Mysql下载地址为： https://dev.mysql.com/downloads/
-    挑选你需要的 MySQL Community Server 版本及对应的平台。
+    *所有平台的Mysql下载地址为： https://dev.mysql.com/downloads/挑选你需要的 MySQL Community Server 版本及对应的平台。
 
 
 ### 爬虫工作配置
@@ -62,12 +59,14 @@ pip install -r requirements.txt
     psw = 'your password'  # 数据库密码，请修改
     port = 3306  # 数据库端口，在dbhelper中使用,一般无需修改
 ```
-    
+
 * 第四步：运行小爬虫
 ```
     命令行cd到你的项目文件夹，运行以下命令：
     或者直接在你的爬虫文件夹内shift + 右键 打开命令提示符或者powershell，运行以下命令
     scrapy crawl Common_crawler
+
+    爬取的内容会自动保存到 config.py 中配置的mysql数据库中
 ```
 
 ### 问题反馈
