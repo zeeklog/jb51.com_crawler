@@ -54,7 +54,7 @@ pip install -r requirements.txt
 * 第三步：修改配置Config.py:
 
 ```shell
-# Config.py 为项目配置文件
+    Config.py 为项目配置文件
 
     host = '127.0.0.1' #改成你的数据库地址，如果需要保存在线服务器请填写数据库IP
     dbname = 'your database naem'  # 数据库名字，请修改
@@ -63,9 +63,9 @@ pip install -r requirements.txt
     port = 3306  # 数据库端口，在dbhelper中使用,一般无需修改
 * 第四步：运行小爬虫
 ```
-命令行cd到你的项目文件夹，运行以下命令：
-或者直接在你的爬虫文件夹内shift + 右键 打开命令提示符或者powershell，运行以下命令
-scrapy crawl Common_crawler
+    命令行cd到你的项目文件夹，运行以下命令：
+    或者直接在你的爬虫文件夹内shift + 右键 打开命令提示符或者powershell，运行以下命令
+    scrapy crawl Common_crawler
 ```
 
 ### 问题反馈
