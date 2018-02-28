@@ -56,12 +56,13 @@ pip install -r requirements.txt
 * 第三步：修改配置Config.py:
 
 ```shell
-# Config.ini 为项目配置文件 【数据库使用mysql数据库】
-    host = '127.0.0.1' #本地地址
-    dbname = 'max'  # 数据库名字，请修改
-    user = 'root'  # 数据库账号，请修改
-    psw = '920302913'  # 数据库密码，请修改
-    port = 3306  # 数据库端口，在dbhelper中使用
+# Config.ini 为项目配置文件 
+
+    host = '127.0.0.1' #改成你的数据库地址，如果需要保存在线服务器请填写数据库IP
+    dbname = 'your database naem'  # 数据库名字，请修改
+    user = 'your databse user'  # 数据库账号，请修改
+    psw = 'your password'  # 数据库密码，请修改
+    port = 3306  # 数据库端口，在dbhelper中使用,一般无需修改
 
 ### 问题反馈
 
