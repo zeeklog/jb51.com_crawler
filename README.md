@@ -18,23 +18,39 @@ python3.6 + mysql爬取脚本之家文章
 
 
 
-##### [介绍文档]()
+##### [介绍文档]
+'''
+    python版本：python3.6
+    scrapy: 1.5.0
+    需要安装pymysql包支持访问mysql数据库
+    可以使用pip安装： pip install pymysql
+'''
+    # 重要提示
+'''
+    或者按照下述方法执行一键安装依赖：pip install -r requirements.txt
+    重要事情说三遍：请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！
 
-### 下载安装
+    所有平台的Mysql下载地址为： https://dev.mysql.com/downloads/.
+    挑选你需要的 MySQL Community Server 版本及对应的平台。
+'''
+
+### 爬虫工作配置
+
+* 第一步：下载github项目文件
 
 ```shell
-git clone git@github.com:jhao104/proxy_pool.git
+git clone git@github.com:caffreycc/jb51.com_crawler.git
 
-或者直接到https://github.com/jhao104/proxy_pool 下载zip文件
+或者直接到https://github.com/caffreycc/jb51.com_crawler.git 下载zip文件
 ```
 
-* 安装依赖:
+* 第二步：安装依赖:
 
 ```shell
 pip install -r requirements.txt
 ```
 
-* 配置Config.py:
+* 第三步：修改配置Config.py:
 
 ```shell
 # Config.ini 为项目配置文件 【数据库使用mysql数据库】
