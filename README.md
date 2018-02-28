@@ -19,19 +19,8 @@ python3.6 + mysql爬取脚本之家文章
 
 
 ##### [介绍文档]
-<<<<<<< HEAD
-
-    * python版本：python3.6
-    * scrapy: 1.5.0
-    * 需要安装pymysql包支持访问mysql数据库
-    * 可以使用pip安装： pip install pymysql
-    # 重要提示
 
 ```
-    或者按照下述方法执行一键安装依赖：pip install -r requirements.txt
-    重要事情说三遍：请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！
-=======
-'''
     python版本：python3.6
     scrapy: 1.5.0
     需要安装pymysql包支持访问mysql数据库
@@ -42,15 +31,11 @@ python3.6 + mysql爬取脚本之家文章
     
     *重要事情说三遍：请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！ 请确保你安装了mysql数据库！
     
->>>>>>> c94e53c914e600688df6942660994bf419715666
+
 
     *所有平台的Mysql下载地址为： https://dev.mysql.com/downloads/
     挑选你需要的 MySQL Community Server 版本及对应的平台。
-<<<<<<< HEAD
-```
-=======
 
->>>>>>> c94e53c914e600688df6942660994bf419715666
 
 ### 爬虫工作配置
 
