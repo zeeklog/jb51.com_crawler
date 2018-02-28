@@ -1,4 +1,4 @@
-爬虫实战：python3.6 + scrapy + mysql爬取 脚本之家 文章
+爬虫实战：python3.6 + scrapy + mysql爬取 脚本之家 
 =======
 
 
