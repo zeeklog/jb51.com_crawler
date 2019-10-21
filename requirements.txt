@@ -1,4 +1,4 @@
-twisted==17.9.0
+twisted==19.7.0
 requests==2.11.0
 bs4==0.0.1
 BeautifulSoup4==4.6.0
