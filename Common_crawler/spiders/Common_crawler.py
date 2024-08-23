@@ -22,6 +22,7 @@ class Common_crawlerSpider(scrapy.spiders.Spider):
     start_urls = [
         "http://www.jb51.net/article/8.htm"
     ]
+    print('请勿使用爬虫程序爬取网站受保护内容， 否则可能触犯相关法律律法规。')
     # 设置爬取的页数
     # 测试时请注意：切记，仅作学习爬虫测试，请求不要太频繁，照顾一下对方的服务器。
     # end_page = 10000
