@@ -76,4 +76,7 @@ pip install -r requirements.txt
 ### 贡献代码
 
     本项目基于PythonCrawler-Scrapy-Mysql-File-Template开发，感谢作者@lawlite19（https://github.com/lawlite19）的开源分享精神。
+    
+### 提示
+    请勿使用爬虫爬取网站设置保护机制的内容，否则可能触犯中国大陆相关法律法规。
 
